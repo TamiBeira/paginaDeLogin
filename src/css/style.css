@@ -4,6 +4,7 @@ html,body,div,main,form,small,input,p,h1,h2,h3{
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 100%;
@@ -28,8 +29,20 @@ html,body,div,main,form,small,input,p,h1,h2,h3{
 .container main form input{
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
+    margin:10px 0 10px 0px;
+    border: 1px solid #1a93c4;
+    border-radius: 5px;
 }
 .container main form input[type="submit"]{
     width: 150px;
+    font-size: 14px;
+    background-color: #1a93c4;
+    color: #ffffff;
+    border: 1px solid #1a93c4;
+    border-radius: 5px;
+}
+.container main form input[type="submit"]:hover{
+    background-color: #ffffff;
+    color: #1a93c4;
+    border: 1px solid #1a93c4;
 }
