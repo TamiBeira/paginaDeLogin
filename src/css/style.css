@@ -1,0 +1,35 @@
+/*RESET CSS*/
+html,body,div,main,form,small,input,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container main{
+    display: flex;
+    justify-content: center;
+}
+.container main form{
+    width: 70%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.container main form h3{
+    text-align: center;
+}
+.container main form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container main form input[type="submit"]{
+    width: 150px;
+}
